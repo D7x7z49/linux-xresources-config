@@ -1,7 +1,7 @@
 #!/bin/bash
 
 USER_XRESOURCES_HOME="${USER_XRESOURCES_HOME:-$HOME/.config/X11}"
-$XRESOURCES_DIR="$USER_XRESOURCES_HOME/Xresources.d"
+XRESOURCES_DIR="$USER_XRESOURCES_HOME/Xresources.d"
 
 if [ "$#" -ne 3 ]; then
     echo "用法: $0 <target> <themes> <new_theme>"
@@ -23,12 +23,12 @@ OLD_INCLUDE="#include \"themes/$THEMES/*\""
 NEW_INCLUDE="#include \"themes/$THEMES/$NEW_THEME\""
 
 THEME="$XRESOURCES_DIR/themes/$THEMES/$NEW_THEME"
-if [ ! -d "$THEME" ]; then
+if [ ! -f "$THEME" ]; then
     echo "erorr: no find $THEME"
     exit 1
 fi
 
-if grep -qF "$OLD_INCLUDE" "$TARGET_FILE"; then
+if grep -qE "$OLD_INCLUDE" "$TARGET_FILE"; then
     sed -i "s|$OLD_INCLUDE|$NEW_INCLUDE|g" "$TARGET_FILE"
     echo "YES: $OLD_INCLUDE to $NEW_INCLUDE in $TARGET_FILE"
 else
