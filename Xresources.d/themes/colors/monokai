@@ -1,33 +1,33 @@
 ! Monokai
-#define background #272822  ! 背景
-#define foreground #f8f8f2  ! 前景
-#define comment #75715e     ! 注释灰色
-#define red #f92672         ! 红色（错误、警告）
-#define orange #fd971f      ! 橙色（特殊提示）
-#define yellow #e6db74      ! 黄色（类型、类）
-#define green #a6e22e       ! 绿色（函数、成功）
-#define blue #66d9ef        ! 蓝色（信息）
-#define purple #ae81ff      ! 紫色（关键词）
+#define monokai0 #272822
+#define monokai1 #f8f8f2
+#define monokai2 #75715e
+#define monokai3 #f92672
+#define monokai4 #fd971f
+#define monokai5 #e6db74
+#define monokai6 #a6e22e
+#define monokai7 #66d9ef
+#define monokai8 #ae81ff
 
-*.foreground:   foreground
-*.background:   background
-*.cursorColor:  foreground
+*.foreground:   monokai1
+*.background:   monokai0
+*.cursorColor:  monokai1
 *fading: 35
-*fadeColor: comment
+*fadeColor: monokai2
 
-*.color0: background
-*.color1: red
-*.color2: green
-*.color3: yellow
-*.color4: blue
-*.color5: purple
-*.color6: blue
-*.color7: foreground
-*.color8: comment
-*.color9: red
-*.color10: green
-*.color11: yellow
-*.color12: blue
-*.color13: purple
-*.color14: blue
-*.color15: foreground
+*.color0: monokai0
+*.color1: monokai3
+*.color2: monokai6
+*.color3: monokai5
+*.color4: monokai7
+*.color5: monokai8
+*.color6: monokai7
+*.color7: monokai1
+*.color8: monokai2
+*.color9: monokai3
+*.color10: monokai6
+*.color11: monokai5
+*.color12: monokai7
+*.color13: monokai8
+*.color14: monokai7
+*.color15: monokai1

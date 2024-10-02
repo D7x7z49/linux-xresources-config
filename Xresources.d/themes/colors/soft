@@ -1,36 +1,34 @@
 ! Soft
-#define base00 #1C1F26  ! 深色背景
-#define base01 #272B35  ! 稍微亮一点的暗色（用于次要元素）
-#define base02 #3B3E46  ! 边框、非激活文本
-#define base03 #A3A9B6  ! 浅灰色文本（用于注释、非激活项目）
-#define base04 #E5E9F0  ! 浅色前景，提高可读性
-#define accent1 #D08770 ! 温暖的提醒颜色（用于警告）
-#define accent2 #88C0D0 ! 柔和的蓝色（用于语法）
-#define accent3 #81A1C1 ! 温和的蓝色（用于变量名）
-#define accent4 #A3BE8C ! 沉稳的绿色（用于函数）
-#define accent5 #B48EAD ! 柔和的紫色（用于类型和类）
+#define soft0 #1C1F26
+#define soft1 #272B35
+#define soft2 #3B3E46
+#define soft3 #A3A9B6
+#define soft4 #E5E9F0
+#define soft5 #D08770
+#define soft6 #88C0D0
+#define soft7 #81A1C1
+#define soft8 #A3BE8C
+#define soft9 #B48EAD
 
-! 常规设置
-*.foreground:   base04
-*.background:   base00
-*.cursorColor:  base04
+*.foreground:   soft4
+*.background:   soft0
+*.cursorColor:  soft4
 *fading: 30
-*fadeColor: base02
+*fadeColor: soft2
 
-! 颜色分配
-*.color0: base01   ! 黑色（背景）
-*.color1: accent1  ! 红色（错误、警告）
-*.color2: accent4  ! 绿色（函数、成功）
-*.color3: accent5  ! 黄色（类型、类）
-*.color4: accent2  ! 蓝色（信息）
-*.color5: accent3  ! 洋红色（关键词、循环）
-*.color6: accent2  ! 青色（注释、提示）
-*.color7: base03   ! 白色（非激活文本）
-*.color8: base01   ! 亮黑色（深灰）
-*.color9: accent1  ! 亮红色
-*.color10: accent4 ! 亮绿色
-*.color11: accent5 ! 亮黄色
-*.color12: accent2 ! 亮蓝色
-*.color13: accent3 ! 亮洋红色
-*.color14: accent2 ! 亮青色
-*.color15: base04  ! 亮白色（前景）
+*.color0: soft1
+*.color1: soft5
+*.color2: soft8
+*.color3: soft9
+*.color4: soft6
+*.color5: soft7
+*.color6: soft6
+*.color7: soft3
+*.color8: soft1
+*.color9: soft5
+*.color10: soft8
+*.color11: soft9
+*.color12: soft6
+*.color13: soft7
+*.color14: soft6
+*.color15: soft4

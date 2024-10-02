@@ -1,36 +1,36 @@
 ! Gruvbox
-#define dark0_hard #1d2021  ! 深色背景（硬）
-#define dark1      #3c3836  ! 深色背景
-#define dark2      #504945  ! 浅灰背景
-#define light0     #fbf1c7  ! 亮色前景
-#define light1     #ebdbb2  ! 亮灰前景
-#define red        #cc241d  ! 红色（错误、警告）
-#define green      #98971a  ! 绿色（函数、成功）
-#define yellow     #d79921  ! 黄色（类型、类）
-#define blue       #458588  ! 蓝色（信息）
-#define purple     #b16286  ! 紫色（关键词）
-#define aqua       #689d6a  ! 青色（变量、提示）
-#define orange     #d65d0e  ! 橙色（特殊提示）
+#define gruvbox0 #1d2021
+#define gruvbox1 #3c3836
+#define gruvbox2 #504945
+#define gruvbox3 #fbf1c7
+#define gruvbox4 #ebdbb2
+#define gruvbox5 #cc241d
+#define gruvbox6 #98971a
+#define gruvbox7 #d79921
+#define gruvbox8 #458588
+#define gruvbox9 #b16286
+#define gruvbox10 #689d6a
+#define gruvbox11 #d65d0e
 
-*.foreground:   light1
-*.background:   dark0_hard
-*.cursorColor:  light1
+*.foreground:   gruvbox4
+*.background:   gruvbox0
+*.cursorColor:  gruvbox4
 *fading: 35
-*fadeColor: dark1
+*fadeColor: gruvbox1
 
-*.color0: dark1
-*.color1: red
-*.color2: green
-*.color3: yellow
-*.color4: blue
-*.color5: purple
-*.color6: aqua
-*.color7: light0
-*.color8: dark2
-*.color9: red
-*.color10: green
-*.color11: yellow
-*.color12: blue
-*.color13: purple
-*.color14: aqua
-*.color15: light1
+*.color0: gruvbox1
+*.color1: gruvbox5
+*.color2: gruvbox6
+*.color3: gruvbox7
+*.color4: gruvbox8
+*.color5: gruvbox9
+*.color6: gruvbox10
+*.color7: gruvbox3
+*.color8: gruvbox2
+*.color9: gruvbox5
+*.color10: gruvbox6
+*.color11: gruvbox7
+*.color12: gruvbox8
+*.color13: gruvbox9
+*.color14: gruvbox10
+*.color15: gruvbox4

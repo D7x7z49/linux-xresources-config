@@ -1,36 +1,36 @@
 ! Dracula
-#define background #282a36  ! 背景黑色
-#define current_line #44475a  ! 当前行背景
-#define selection #44475a  ! 选中背景
-#define foreground #f8f8f2  ! 浅色前景
-#define comment #6272a4     ! 注释灰色
-#define cyan #8be9fd        ! 青色
-#define green #50fa7b       ! 绿色
-#define orange #ffb86c      ! 橙色
-#define pink #ff79c6        ! 粉色
-#define purple #bd93f9      ! 紫色
-#define red #ff5555         ! 红色
-#define yellow #f1fa8c      ! 黄色
+#define dracula0 #282a36
+#define dracula1 #44475a
+#define dracula2 #44475a
+#define dracula3 #f8f8f2
+#define dracula4 #6272a4
+#define dracula5 #8be9fd
+#define dracula6 #50fa7b
+#define dracula7 #ffb86c
+#define dracula8 #ff79c6
+#define dracula9 #bd93f9
+#define dracula10 #ff5555
+#define dracula11 #f1fa8c
 
-*.foreground:   foreground
-*.background:   background
-*.cursorColor:  foreground
+*.foreground:   dracula3
+*.background:   dracula0
+*.cursorColor:  dracula3
 *fading: 40
-*fadeColor: current_line
+*fadeColor: dracula1
 
-*.color0: background
-*.color1: red
-*.color2: green
-*.color3: yellow
-*.color4: cyan
-*.color5: purple
-*.color6: cyan
-*.color7: foreground
-*.color8: comment
-*.color9: red
-*.color10: green
-*.color11: yellow
-*.color12: cyan
-*.color13: purple
-*.color14: cyan
-*.color15: foreground
+*.color0: dracula0
+*.color1: dracula10
+*.color2: dracula6
+*.color3: dracula11
+*.color4: dracula5
+*.color5: dracula9
+*.color6: dracula5
+*.color7: dracula3
+*.color8: dracula4
+*.color9: dracula10
+*.color10: dracula6
+*.color11: dracula11
+*.color12: dracula5
+*.color13: dracula9
+*.color14: dracula5
+*.color15: dracula3

@@ -19,7 +19,7 @@ if [ ! -f "$TARGET_FILE" ]; then
     exit 1
 fi
 
-OLD_INCLUDE="#include \"themes/$THEMES/*\""
+OLD_INCLUDE="#include \"themes/$THEMES/.*\""
 NEW_INCLUDE="#include \"themes/$THEMES/$NEW_THEME\""
 
 THEME="$XRESOURCES_DIR/themes/$THEMES/$NEW_THEME"
