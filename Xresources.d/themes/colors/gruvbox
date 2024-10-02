@@ -1,0 +1,36 @@
+! Gruvbox
+#define dark0_hard #1d2021  ! 深色背景（硬）
+#define dark1      #3c3836  ! 深色背景
+#define dark2      #504945  ! 浅灰背景
+#define light0     #fbf1c7  ! 亮色前景
+#define light1     #ebdbb2  ! 亮灰前景
+#define red        #cc241d  ! 红色（错误、警告）
+#define green      #98971a  ! 绿色（函数、成功）
+#define yellow     #d79921  ! 黄色（类型、类）
+#define blue       #458588  ! 蓝色（信息）
+#define purple     #b16286  ! 紫色（关键词）
+#define aqua       #689d6a  ! 青色（变量、提示）
+#define orange     #d65d0e  ! 橙色（特殊提示）
+
+*.foreground:   light1
+*.background:   dark0_hard
+*.cursorColor:  light1
+*fading: 35
+*fadeColor: dark1
+
+*.color0: dark1
+*.color1: red
+*.color2: green
+*.color3: yellow
+*.color4: blue
+*.color5: purple
+*.color6: aqua
+*.color7: light0
+*.color8: dark2
+*.color9: red
+*.color10: green
+*.color11: yellow
+*.color12: blue
+*.color13: purple
+*.color14: aqua
+*.color15: light1

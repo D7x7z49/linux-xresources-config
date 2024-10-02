@@ -1,0 +1,36 @@
+! Dracula
+#define background #282a36  ! 背景黑色
+#define current_line #44475a  ! 当前行背景
+#define selection #44475a  ! 选中背景
+#define foreground #f8f8f2  ! 浅色前景
+#define comment #6272a4     ! 注释灰色
+#define cyan #8be9fd        ! 青色
+#define green #50fa7b       ! 绿色
+#define orange #ffb86c      ! 橙色
+#define pink #ff79c6        ! 粉色
+#define purple #bd93f9      ! 紫色
+#define red #ff5555         ! 红色
+#define yellow #f1fa8c      ! 黄色
+
+*.foreground:   foreground
+*.background:   background
+*.cursorColor:  foreground
+*fading: 40
+*fadeColor: current_line
+
+*.color0: background
+*.color1: red
+*.color2: green
+*.color3: yellow
+*.color4: cyan
+*.color5: purple
+*.color6: cyan
+*.color7: foreground
+*.color8: comment
+*.color9: red
+*.color10: green
+*.color11: yellow
+*.color12: cyan
+*.color13: purple
+*.color14: cyan
+*.color15: foreground

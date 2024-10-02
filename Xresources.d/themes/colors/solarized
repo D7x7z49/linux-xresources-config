@@ -1,0 +1,40 @@
+! Solarized
+#define base00 #002b36  ! 深色背景
+#define base01 #073642  ! 深灰背景
+#define base02 #586e75  ! 深灰
+#define base03 #657b83  ! 浅灰
+#define base04 #839496  ! 中灰
+#define base05 #93a1a1  ! 亮灰
+#define base06 #eee8d5  ! 浅米色
+#define base07 #fdf6e3  ! 浅黄色背景
+#define yellow #b58900  ! 黄色
+#define orange #cb4b16  ! 橙色
+#define red    #dc322f  ! 红色
+#define magenta #d33682 ! 洋红色
+#define violet #6c71c4 ! 紫罗兰色
+#define blue   #268bd2 ! 蓝色
+#define cyan   #2aa198 ! 青色
+#define green  #859900 ! 绿色
+
+*.foreground:   base05
+*.background:   base00
+*.cursorColor:  base04
+*fading: 30
+*fadeColor: base01
+
+*.color0: base01
+*.color1: red
+*.color2: green
+*.color3: yellow
+*.color4: blue
+*.color5: magenta
+*.color6: cyan
+*.color7: base06
+*.color8: base02
+*.color9: red
+*.color10: green
+*.color11: yellow
+*.color12: blue
+*.color13: magenta
+*.color14: cyan
+*.color15: base07

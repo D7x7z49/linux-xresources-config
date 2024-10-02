@@ -1,0 +1,21 @@
+#include "themes/colors/nordic"
+
+XTerm.fullscreen:	never
+XTerm.termName:		xterm-256color
+
+xterm*font: xft:Monospace:size=12:antialias=true
+
+xterm*geometry: 90x32
+xterm*mouseWheelScrollPage:       true
+xterm*cursorBlink:                true
+xterm*saveLines:                  7000
+xterm*internalBorder: 15
+
+XTerm*selectToClipboard:          true
+XTerm*VT100.Translations: #override \
+      Shift Ctrl<Key>C: copy-selection(CLIPBOARD) \n\
+      Shift Ctrl<Key>V: insert-selection(CLIPBOARD) \n\ 
+      Shift Ctrl<Key>V: insert-selection(PRIMARY) \n\ 
+      Shift<Btn1Down>: select-start() \n\ 
+      Shift<Btn1Motion>: select-extend() \n\ 
+      Shift<Btn1Up>: select-end(CLIPBOARD) \n\
