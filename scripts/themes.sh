@@ -4,7 +4,7 @@ USER_XRESOURCES_HOME="${USER_XRESOURCES_HOME:-$HOME/.config/X11}"
 XRESOURCES_DIR="$USER_XRESOURCES_HOME/Xresources.d"
 
 if [ "$#" -ne 3 ]; then
-    echo "用法: $0 <target> <themes> <new_theme>"
+    echo "use: $0 <target> <themes> <new_theme>"
     exit 1
 fi
 
