@@ -1,0 +1,23 @@
+
+bar {
+    status_command      i3status
+    tray_output         none
+    workspace_buttons   yes
+
+    padding             4px 3px
+    separator_symbol    ":|:"
+
+    i3bar_command       i3bar --transparency
+    colors {
+        background  #2e344088
+        statusline  #d8dee9
+        separator   #4c566acc
+
+        focused_workspace   #88c0d088 #3b4252 #d8dee9cc
+        active_workspace    #3b425288 #d8dee9 #d8dee9cc
+        inactive_workspace  #3b425288 #2e3440 #4c566acc
+        urgent_workspace    #2e344088 #bf616a #d8dee9cc
+        binding_mode        #2e344088 #bf616a #d8dee9cc
+    }
+}
+
